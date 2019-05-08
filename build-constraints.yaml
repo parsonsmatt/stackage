@@ -2136,6 +2136,7 @@ packages:
         - esqueleto
         - persistent-typed-db < 0.1.0.0 # persistent-2.10.0, persistent-template-2.7.0
         - persistent-qq
+        - persistent-documentation
 
     "Matthew Pickering <matthewtpickering@gmail.com> @mpickering":
         - refact
