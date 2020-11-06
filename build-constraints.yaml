@@ -307,7 +307,7 @@ packages:
 
     "Florian Knupfer <fknupfer@gmail.com> @knupfer":
         - type-of-html
-        - type-of-html-static < 0 # https://github.com/commercialhaskell/stackage/issues/5728
+        - type-of-html-static
         - chronos-bench
 
     "Mikolaj Konarski <mikolaj.konarski@funktory.com> @Mikolaj":
@@ -2395,8 +2395,10 @@ packages:
         - persistent-typed-db
         - persistent-qq
         - persistent-pagination
+        - persistent-documentation
         - hspec-hedgehog
         - exception-via
+        - record-wrangler
 
     "Matthew Pickering <matthewtpickering@gmail.com> @mpickering":
         - refact
@@ -3753,7 +3755,7 @@ packages:
         - language-docker
         - docker-build-cacher < 0 # GHC 8.4 via turtle
         - mysql-haskell-nem < 0 # via io-streams
-        - hadolint < 0 # via megaparsec-9.0.1 https://github.com/commercialhaskell/stackage/issues/5729
+        - hadolint
 
     "Phil Ruffwind <rf@rufflewind.com> @Rufflewind":
         - blas-hs < 0 # MonadFail
