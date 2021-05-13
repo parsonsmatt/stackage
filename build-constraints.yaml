@@ -2449,6 +2449,7 @@ packages:
         - servant-quickcheck < 0
         - esqueleto
         - hedgehog-fakedata
+        - persistent-discover
         - persistent-documentation
         - persistent-typed-db
         - persistent-qq
